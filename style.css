@@ -1,0 +1,152 @@
+body{
+padding: 0;
+margin: 0;
+background-color: rgba(235, 236, 235, 0.116);
+   
+}
+.box{
+    width:100vw;
+    background-color: transparent;
+    height: 100vh;
+    margin: 0%;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+  
+   
+    
+    
+}
+.form-box{
+    width: 45vw;
+    height: 90vh;
+    background-color: transparent;
+    margin: 1%;
+    text-align: center;
+   
+  
+}.image-box{
+    width: 45vw;
+    height: 90vh;
+    background-image: url('./pic.png');
+    background-position:100%;
+    background-repeat: no-repeat;
+    margin: 1%;
+
+}
+h2{
+text-transform: capitalize;
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+color: rgb(63, 32, 10);   
+}
+input{
+    margin: 3%;
+    outline-color:orange ;
+    background-color: transparent;
+    border: 0.8px solid grey;
+    width: 50%;
+    font-size: 20px;
+    color:rgb(31, 136, 113);
+    border-radius: 8px;
+    padding: 10px;
+    
+    
+    
+}
+input::placeholder{
+    color:rgb(31, 136, 113);
+}
+select{
+    margin: 3%;
+    background-color: transparent;
+    width: 55%;
+    font-size: 20px;
+      color:rgb(31, 136, 113);
+      border-radius: 8px;
+      padding: 10px;
+}
+option{
+    background-color: transparent;
+    color: orange;
+}
+.spec{
+    width: 22.5%;
+    margin:1%;
+}
+
+.check{
+    width: 2%;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+    font-size: 20px;
+    width: 48%;
+    border: none;
+    background-color: rgb(219, 151, 23);
+    color: white;
+    height: 6vh;
+    border-radius: 9px;
+    box-shadow: 2px 2px 4px grey;
+}
+button:active{
+    font-size: small;
+    opacity: 0.9;
+}
+@media(max-width:767px){
+    .box{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 140vh;
+        margin: 10px;
+    }
+    .image-box{
+        width: 100vw;
+        background-position: initial;
+        background-size: contain;
+        height: 40vh;
+        margin-top: -50%;
+        margin-left: -1%;
+    }
+    .form-box{
+        width: 100vw;
+        height: 65vh;
+        margin: 0;
+    }
+    input{
+        width: 80%;
+        
+    }
+    select{
+        width: 86%;
+    }
+    .spec{
+        width: 80%;
+    }
+    form{
+        margin-left: -5%;
+    }
+    button{
+        width: 80%;
+    }
+  
+
+ 
+ 
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
